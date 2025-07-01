@@ -1,0 +1,164 @@
+/* HTML Code */
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="yoga-home-page" id="sectionhome">
+        <p class="yoga-heading">Discover the yogi life on the <br /> yoga Experience Platform</p>
+        <div class="yoga-girl">
+            <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" class="yoga-girl-img" />
+            <p class="yoga-para">Yoga poses strengthen and open tight areas of <br /> the body</p>
+            <button class="butn" onclick="display('sectiontypes')">Get Started</button>
+        </div>
+    </div>
+
+
+    <div class="types-of-yoga" id="sectiontypes">
+        <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png" class="yoga-girl-img1" />
+        <p class="types-of-yoga-heading">Types Of Yoga</p>
+        <div class="acro-yoga d-flex flex-row justify-content-center">
+            <div class="yoga-girl1">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="yoga-girl-img2" />
+            </div>
+            <div class="acro-yoga-text">
+                <p class="acro-yoga-heading">Acro Yoga</p>
+                <p class="acro-yoga-para">It strtches and relakes your body,<br /> improves stamina and memory</p>
+            </div>
+        </div>
+        <div class="acro-yoga d-flex flex-row justify-content-center">
+            <div class="yoga-girl1">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="yoga-girl-img2" />
+            </div>
+            <div class="acro-yoga-text">
+                <p class="acro-yoga-heading">Acro Yoga</p>
+                <p class="acro-yoga-para">It strtches and relakes your body,<br /> improves stamina and memory</p>
+            </div>
+        </div>
+        <div class="acro-yoga d-flex flex-row justify-content-center">
+            <div class="yoga-girl1">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="yoga-girl-img2" />
+            </div>
+            <div class="acro-yoga-text">
+                <p class="acro-yoga-heading">Acro Yoga</p>
+                <p class="acro-yoga-para">It strtches and relakes your body,<br /> improves stamina and memory</p>
+            </div>
+        </div>
+        <div class="acro-yoga d-flex flex-row justify-content-center">
+            <div class="yoga-girl1 d-flex flex-column justify-content-center">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="yoga-girl-img2" />
+            </div>
+            <div class="acro-yoga-text">
+                <p class="acro-yoga-heading">Acro Yoga</p>
+                <p class="acro-yoga-para">It strtches and relakes your body,<br /> improves stamina and memory</p>
+            </div>
+        </div>
+        <button class="butn" onclick="display('sectionhome')">Back</button>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+/* CSS Code */
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.yoga-home-page {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.yoga-heading {
+    font-family: "Roboto";
+    color: #132d84;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.yoga-girl {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.yoga-girl-img {
+    height: 210px;
+    width: 225px;
+}
+
+.yoga-para {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-weight: bold;
+}
+
+.butn {
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #132d84;
+    color: #fad693;
+    width: 100px;
+    height: 40px;
+}
+
+.types-of-yoga {
+    background-color: #ffedcb;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.yoga-girl-img1 {
+    height: 220px;
+    padding-top: 15px;
+}
+
+.types-of-yoga-heading {
+    font-family: "Roboto";
+    color: #132d84;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.yoga-girl-img2 {
+    height: 100px;
+    text-align: center;
+}
+
+.acro-yoga {
+    background-color: #ffe2ab;
+    padding-top: 18px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.yoga-girl1 {
+    padding-right: 10px;
+}
+
+.acro-yoga-text {}
+
+.acro-yoga-heading {
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #132d84;
+    font-weight: bold;
+}
+
+.acro-yoga-para {
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #132d84;
+    font-weight: bold;
+}
